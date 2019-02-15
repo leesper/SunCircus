@@ -1,6 +1,6 @@
 package imooc.homework;
 
 public interface IAct {
-	void skill();
+	String skill();
 	void act();
 }

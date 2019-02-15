@@ -11,7 +11,8 @@ public class SunCircus {
 			int input = s.nextInt();
 			switch (input) {
 			case 1:
-				System.out.println("bear");
+				Bear b = new Bear("Bill", 1);
+				b.act();
 				break;
 			case 2:
 				System.out.println("lion");
