@@ -23,10 +23,12 @@ public class SunCircus {
 				m.act();
 				break;
 			case 4:
-				System.out.println("parrot");
+				Parrot p = new Parrot("Rose", 1, "牡丹鹦鹉");
+				p.act();
 				break;
 			case 5:
-				System.out.println("clown");
+				Clown c = new Clown("Kahle", 5, "身穿五彩服装，头上戴着彩色的帽子，脸上画着夸张的彩妆");
+				c.act();
 				break;
 			case 0:
 				return;
