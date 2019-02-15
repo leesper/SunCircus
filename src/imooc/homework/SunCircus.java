@@ -19,7 +19,8 @@ public class SunCircus {
 				l.act();
 				break;
 			case 3:
-				System.out.println("monkey");
+				Monkey m = new Monkey("Tom", 1, "金丝猴");
+				m.act();
 				break;
 			case 4:
 				System.out.println("parrot");
@@ -34,6 +35,10 @@ public class SunCircus {
 			}
 			choice();
 			input = s.nextInt();
+			while (input != 1 && input != 0) {
+				System.out.println("** 输入信息不正确，请重新输入 **");
+				input = s.nextInt();
+			}
 			if (input == 0) {
 				return;
 			}
