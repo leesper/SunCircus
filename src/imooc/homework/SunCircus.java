@@ -15,7 +15,8 @@ public class SunCircus {
 				b.act();
 				break;
 			case 2:
-				System.out.println("lion");
+				Lion l = new Lion("Lain", 2, "灰色", "公狮");
+				l.act();
 				break;
 			case 3:
 				System.out.println("monkey");
